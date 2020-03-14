@@ -34,7 +34,7 @@ istream & operator>>(istream & is, student & s)
 }
 ostream & operator<<(ostream & os, const student & s)
 {
-    os << "Ñ§ºÅ:" << s.num_m << "  ³É¼¨:" << s.score << endl;
+    os << "Ñ§ï¿½ï¿½:" << s.num_m << "  ï¿½É¼ï¿½:" << s.score << endl;
     return os;
 }
 
@@ -80,5 +80,6 @@ int main(void)
         cout << group[i];
     }
 
+    delete [] group;
     return 0;
 }
